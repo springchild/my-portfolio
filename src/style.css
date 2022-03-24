@@ -34,7 +34,7 @@ h2 {
   text-align: center;
 }
 .hero-index {
-  padding-top: 100px;
+  padding: 100px 0 10px;
   background: var(--secondary-color);
 }
 .hero-about {
