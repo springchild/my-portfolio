@@ -5,7 +5,6 @@
 }
 
 body {
-  margin-top: 100px;
   padding: 0 5px;
 }
 
@@ -34,13 +33,12 @@ h2 {
 #top {
   text-align: center;
 }
-.hero {
-  background: rgb(249, 247, 254);
-  background: linear-gradient(
-    0deg,
-    rgba(249, 247, 254, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
+.hero-index {
+  padding-top: 100px;
+  background: var(--secondary-color);
+}
+.hero-about {
+  padding-top: 100px;
 }
 .about-p {
   text-align: center;
@@ -96,12 +94,19 @@ h2 {
   h1 {
     font-size: 48px;
   }
+  h2 {
+    font-size: 20px;
+    padding-top: 10px;
+  }
   h3 {
     text-align: center;
   }
   h4 {
     text-align: center;
     font-size: 30px;
+  }
+  .navigation-links {
+    margin: 10px 0;
   }
   .launch-btn {
     display: block;
