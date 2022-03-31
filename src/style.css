@@ -30,6 +30,10 @@ h2 {
   font-size: 24px;
   opacity: 0.7;
 }
+.h1-about,
+.h2-about {
+  text-align: left;
+}
 #top {
   text-align: center;
 }
@@ -41,10 +45,9 @@ h2 {
   padding-top: 100px;
 }
 .about-p {
-  text-align: center;
   margin: 30px 0;
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 16px;
 }
 .navigation-links {
   display: flex;
@@ -62,6 +65,7 @@ h2 {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  transition: all 0.15s ease-in-out;
 }
 .contact-btn:hover,
 .launch-btn:hover {
@@ -70,6 +74,7 @@ h2 {
 .about-btn {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  transition: all 0.15s ease-in-out;
 }
 .about-btn:hover {
   color: white;
@@ -82,13 +87,37 @@ h2 {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
+  transition: all 0.15s ease-in-out;
+}
+.view-work-btn {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  transition: all 0.15s ease-in-out;
+}
+.view-work-btn:hover {
+  color: white;
+  background: var(--primary-color);
 }
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
   display: block;
 }
-
+@media (max-width: 767px) {
+  .h1-about,
+  .h2-about,
+  .col-about-desc {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 1190px) {
+  h1 {
+    font-size: 66px;
+  }
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
