@@ -37,6 +37,14 @@ h2 {
 .logo {
   max-width: 45px;
 }
+a.active {
+  font-weight: 600;
+}
+a.active,
+a.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2.5px;
+}
 #top {
   text-align: center;
 }
