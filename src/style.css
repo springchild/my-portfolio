@@ -117,6 +117,12 @@ a.nav-link:hover {
   text-align: center;
   display: block;
 }
+.copyright {
+  text-align: center;
+  font-size: 13px;
+  opacity: 80%;
+}
+
 @media (max-width: 767px) {
   .h1-about,
   .h2-about,
