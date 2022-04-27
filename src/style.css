@@ -23,6 +23,11 @@ h2 {
   font-size: 24px;
   opacity: 0.7;
 }
+form {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.1);
+}
 .navbar {
   background-color: white;
   opacity: 95%;
@@ -65,11 +70,11 @@ a.nav-link:hover {
 .social-icon:hover {
   filter: drop-shadow(0 0 0.6rem var(--primary-color));
 }
-.launch-btn:hover {
+.primary-btn:hover {
   color: black;
 }
 
-.launch-btn {
+.primary-btn {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -78,7 +83,7 @@ a.nav-link:hover {
   text-decoration: none;
   transition: all 0.15s ease-in-out;
 }
-.view-work-btn {
+.secondary-btn {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
   border-radius: 4px;
@@ -86,7 +91,7 @@ a.nav-link:hover {
   text-decoration: none;
   transition: all 0.15s ease-in-out;
 }
-.view-work-btn:hover {
+.secondary-btn:hover {
   color: white;
   background: var(--primary-color);
 }
