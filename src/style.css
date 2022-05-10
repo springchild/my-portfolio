@@ -20,7 +20,7 @@ h4 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 36px;
 }
 h5 {
   text-decoration: underline;
@@ -37,6 +37,9 @@ form {
   opacity: 95%;
   padding: 0;
 }
+.h1-about {
+  margin-top: -12px;
+}
 .h1-about,
 .h2-about {
   text-align: left;
@@ -46,6 +49,10 @@ form {
 }
 .logo {
   max-width: 45px;
+  transition: all 0.15s ease-in-out;
+}
+.logo:hover {
+  box-shadow: 0px 0px 15px var(--secondary-color);
 }
 a.active {
   font-weight: 600;
@@ -54,6 +61,7 @@ a.active,
 a.nav-link:hover {
   text-decoration: underline;
   text-decoration-thickness: 2.5px;
+  text-decoration-color: var(--primary-color);
 }
 
 #top {
@@ -74,6 +82,7 @@ a.nav-link:hover {
   border-style: solid;
   border-width: 20px;
   border-radius: 50%;
+  margin-bottom: 6px;
 }
 .about-p {
   margin: 30px 0;
@@ -84,7 +93,7 @@ a.nav-link:hover {
   transition: all 0.15s ease-in-out;
 }
 .social-icon:hover {
-  filter: drop-shadow(0 0 0.6rem var(--primary-color));
+  filter: drop-shadow(0 0 0.7rem var(--secondary-color));
 }
 .primary-btn:hover {
   background: var(--secondary-color);
@@ -135,13 +144,20 @@ a.nav-link:hover {
   h1 {
     font-size: 66px;
   }
+  h2 {
+    font-size: 25px;
+  }
 }
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
   }
+  .h1-contact {
+    margin-top: 20px;
+    font-size: 40px;
+  }
   h2 {
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 10px;
   }
   h3 {
