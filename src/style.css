@@ -198,7 +198,7 @@ a.nav-link:hover {
     font-size: 66px;
   }
   h2 {
-    font-size: 25px;
+    font-size: 18px;
   }
 }
 @media (max-width: 576px) {
@@ -209,9 +209,16 @@ a.nav-link:hover {
     margin-top: 20px;
     font-size: 40px;
   }
+  .h1-index {
+    font-size: 48px;
+  }
+  .h2-index {
+    font-size: 18px;
+  }
   h2 {
     font-size: 18px;
     padding-top: 10px;
+    font-weight: 600;
   }
   h3 {
     text-align: center;
