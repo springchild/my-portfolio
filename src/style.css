@@ -67,6 +67,12 @@ a.nav-link:hover {
 #top {
   text-align: center;
 }
+.h1-index {
+  font-size: 66px;
+}
+.h2-index {
+  font-size: 25px;
+}
 .hero-index {
   padding: 60px 0 30px;
 }
@@ -83,9 +89,12 @@ a.nav-link:hover {
   border-width: 20px;
   border-radius: 50%;
   margin-bottom: 6px;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🌟</text></svg>")
+      16 0,
+    auto; /*!emojicursor.app*/
 }
 .about-p {
-  margin: 30px 0;
+  margin: 20px 0;
   line-height: 1.618;
   font-size: 16px;
 }
